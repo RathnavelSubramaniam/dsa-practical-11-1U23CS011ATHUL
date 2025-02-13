@@ -16,7 +16,6 @@ if (isFull()) {
 System.out.println("Stack is Overflow. Cannot insert " + data);
 return;
 }
-stack[++top] = data;
 }
 public int pop() {
 if (isEmpty()) {
